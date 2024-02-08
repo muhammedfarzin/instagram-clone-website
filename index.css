@@ -6,13 +6,15 @@
 .left-section{
     padding: 10px 5px;
     padding-right: 10px;
-    width: 355px;
+    width: 220px;
     border-right: 1px solid #ccc;
+    position: fixed;
 }
 
 .center-section{
     padding: 15px 40px;
     text-align: center;
+    margin-left: 235px;
 }
 
 .left-section .logo{
@@ -123,6 +125,16 @@
     font-size: 15px;
 }
 
+.flex{
+    display: flex;
+}
+
+.name p{
+    margin: 0 5px;
+    color: #737373;
+    font-weight: normal;
+}
+
 .names .username{
     font-size: 14px;
     font-weight: 600;
@@ -131,6 +143,11 @@
 .names .name{
     font-size: 15px;
     color: #737373;
+}
+
+.creator-details .names .name{
+    color: #000;
+    font-weight: bold;
 }
 
 .suggested-accounts .title{
@@ -190,7 +207,6 @@
 .feed{
     max-width: 450px;
     margin: auto;
-    margin-top: 20px;
 }
 
 .feed .profile{
@@ -230,4 +246,46 @@
 .icon-btn:hover{
     color: #737373;
     cursor: pointer;
+}
+.bold{
+    text-align: start;
+    font-weight: bold;
+}
+.post-details{
+    margin: 3px 0;
+    font-size: 14px;
+    align-items: start;
+}
+.comments{
+    text-align: start;
+}
+.top-comment{   
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card{
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.feed .card .new-comment{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.new-comment input{
+    width: 415px;
+    font-size: 15px;
+    border: none;
+}
+.new-comment input:focus-visible{
+    outline: none;
+}
+.new-comment .icon-btn{
+    color: #737373;
 }
