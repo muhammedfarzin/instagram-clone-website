@@ -12,6 +12,7 @@
 
 .center-section{
     padding: 15px 40px;
+    text-align: center;
 }
 
 .left-section .logo{
@@ -107,15 +108,19 @@
     margin-right: 10px;
 }
 
-.right-section .primary-btn{
+.primary-btn{
     color: #0094f6;
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
 }
 
-.right-section .primary-btn:hover{
+.primary-btn:hover{
     color: #00376b;
+}
+
+.center-section .primary-btn{
+    font-size: 15px;
 }
 
 .names .username{
@@ -167,8 +172,62 @@
     margin: 0 3px;
 }
 
+.about a:hover{
+    text-decoration: underline;
+}
+
 .about .copyright{
     margin-top: 20px;
     font-size: 14px;
     color: #c7c7c7;
+}
+
+.feed .creator-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed{
+    max-width: 450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.feed .profile{
+    display: flex;
+    align-items: center;
+}
+
+.feed .profile img{
+    width: 30px;
+}
+
+.feed .profile .picture{
+    display: flex;
+    align-items: center;
+}
+
+.feed .profile .subtitle{
+    font-size: 12px;
+}
+.feed .profile .names{
+    text-align: start;
+}
+.feed .imgdata img{
+    max-width: 450px;
+    margin: 15px 0;
+}
+.feed .actions{
+    display: flex;
+    justify-content: space-between;
+}
+.feed .primary-actions{
+    display: flex;
+}
+.feed .primary-actions .icon-btn{
+    margin-right: 15px;
+}
+.icon-btn:hover{
+    color: #737373;
+    cursor: pointer;
 }
