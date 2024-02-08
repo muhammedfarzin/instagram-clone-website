@@ -22,6 +22,17 @@
     margin-top: 35px;
 }
 
+.right-section{
+    padding: 30px 0;
+    padding-left: 40px;
+    width: 25%;
+}
+
+.right-section .profile{
+    display: flex;
+    align-items: center;
+}
+
 .btn.btn-outline{
     margin: 6px 0;
     display: flex;
@@ -81,4 +92,37 @@
     width: 55px;
     height: 55px;
     border-radius: 50px;
+}
+
+.profile-details{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.profile .picture img{
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.switch-btn{
+    color: #0094f6;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.switch-btn:hover{
+    color: #00376b;
+}
+
+.names .username{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.names .name{
+    font-size: 15px;
+    color: #737373;
 }
