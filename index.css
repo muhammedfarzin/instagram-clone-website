@@ -6,7 +6,7 @@
 .left-section{
     padding: 10px 5px;
     padding-right: 10px;
-    width: 220px;
+    width: 355px;
     border-right: 1px solid #ccc;
 }
 
@@ -23,12 +23,13 @@
 }
 
 .right-section{
-    padding: 30px 0;
+    padding: 5px 0;
     padding-left: 40px;
-    width: 25%;
+    margin-right: 3%;
 }
 
 .right-section .profile{
+    margin: 25px 0;
     display: flex;
     align-items: center;
 }
@@ -101,28 +102,73 @@
 }
 
 .profile .picture img{
-    width: 40px;
+    width: 45px;
     border-radius: 50px;
     margin-right: 10px;
 }
 
-.switch-btn{
+.right-section .primary-btn{
     color: #0094f6;
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
 }
 
-.switch-btn:hover{
+.right-section .primary-btn:hover{
     color: #00376b;
 }
 
 .names .username{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
 }
 
 .names .name{
     font-size: 15px;
     color: #737373;
+}
+
+.suggested-accounts .title{
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 290px;
+}
+
+.right-section .suggested-accounts .profile{
+    margin: 15px 0;
+}
+
+.suggested-accounts a.seeall-btn{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.suggested-accounts a.seeall-btn:hover{
+    color: #737373;
+}
+
+.suggested-accounts .names .name{
+    font-size: 12px;
+}
+
+.about{
+    margin-top: 35px;
+}
+
+.about a{
+    color: #c7c7c7;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 3px;
+}
+
+.about .copyright{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c7c7c7;
 }
