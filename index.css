@@ -96,6 +96,7 @@
     width: 55px;
     height: 55px;
     border-radius: 50px;
+    object-fit: cover;
 }
 
 .profile-details{
@@ -106,6 +107,8 @@
 
 .profile .picture img{
     width: 45px;
+    height: 45px;
+    object-fit: cover;
     border-radius: 50px;
     margin-right: 10px;
 }
@@ -216,6 +219,7 @@
 
 .feed .profile img{
     width: 30px;
+    height: 30px;
 }
 
 .feed .profile .picture{
